@@ -20,7 +20,7 @@ import {AgmCoreModule} from '@agm/core';
     ServiceWorkerModule.register('ngsw-worker.js', {enabled: environment.production}),
     BrowserAnimationsModule,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyCzndwWW4fwLEn_qDVkYcwH56jHpJiRB8U',
+      apiKey: 'YOUR API KEY FROM GOOGLE CONSOLE',
       libraries: ['places']
     })
   ],
